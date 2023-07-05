@@ -1,0 +1,25 @@
+{
+  "group": [
+    {
+      "name": "access.account",
+      "type": "com.itschenxiang.first.config.TempAccountProperties",
+      "sourceType": "com.itschenxiang.first.config.TempAccountProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "access.account.secretId",
+      "type": "java.lang.String",
+      "description": "secretId",
+      "sourceType": "com.itschenxiang.first.config.TempAccountProperties",
+      "defaultValue": "TempAccountProperties secretId"
+    },
+    {
+      "name": "access.account.secretToken",
+      "type": "java.lang.String",
+      "description": "secretToken",
+      "sourceType": "com.itschenxiang.first.config.TempAccountProperties",
+      "defaultValue": "TempAccountProperties secretToken"
+    }
+  ]
+}
